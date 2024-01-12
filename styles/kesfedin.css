@@ -1,0 +1,136 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    display: grid;
+    grid-template-areas: 
+    "header"
+    "main"
+    ;
+    grid-template-rows: 100px 100vh;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+header{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    padding: 10px;
+    background-color:black;
+}
+span{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 60px;
+    flex: 0 0 79%;
+}
+header > span > a{
+    text-decoration: none;
+    font-size: 20px;
+    color: white;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+header > span > a:hover{
+    color: rgb(208, 45, 20);
+}
+i{
+    flex: 0 0 10%;
+    color: rgb(237, 220, 220);
+    display: flex;
+    justify-content: end;
+}
+
+.span2{
+    flex: 0 0 10%;
+    display: flex;
+    justify-content: flex-end;
+    font-size: 20px;
+}
+header > img{
+    width: 150px;
+}
+header > .span2 >i:hover{
+    color: rgb(229, 8, 8);
+}
+
+main{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 30px;
+    gap: 5px;
+}
+main > #div4{
+    display: flex;
+    flex: 0 0 100%;
+    flex-wrap: wrap;
+    gap: 15px;
+    justify-content: center;
+    align-items: center;
+}
+main > #div4 > h1{
+    font-size: 60px;
+}
+main > #div1{
+    flex: 0 0 40%;
+    height: 350px;
+    color: white;
+    background: url(../kesfedin.images/menzil.webp) no-repeat center/cover;
+}
+main > #div1 > a{
+    padding: 5px;
+    text-decoration: none;
+    color: white;
+    border: 2px solid white;
+    margin-left: 20px;
+}
+main > #div1 > h1{
+    padding: 20px;
+    font-size: 40px;
+}
+main > #div2{
+    flex: 0 0 58%;
+    height: 350px;
+    color: white;
+    background: url(../kesfedin.images/jarj.jpg) no-repeat center/cover;
+}
+main > #div2 > a{
+    padding: 5px;
+    text-decoration: none;
+    color: white;
+    border: 2px solid white;
+    margin-left: 20px;
+}
+main > #div2 > h1{
+    padding: 20px;
+    font-size: 40px;
+}
+main > #div3{
+    flex: 0 0 99%;
+    height: 350px;
+    color: white;
+    background: url(../kesfedin.images/surdurulebilirlik.jpg) no-repeat center/cover;
+}
+main > #div3 > a{
+    padding: 5px;
+    text-decoration: none;
+    color: white;
+    border: 2px solid white;
+    margin-left: 20px;
+}
+main > #div3 > h1{
+    padding: 20px;
+    font-size: 40px;
+}
+main > #div1 > a:hover{
+    color: black;
+    background-color: white;
+}
+main > #div2 > a:hover{
+    color: black;
+    background-color: white;
+}main > #div3 > a:hover{
+    color: black;
+    background-color: white;
+}

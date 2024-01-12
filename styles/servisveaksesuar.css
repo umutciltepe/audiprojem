@@ -1,0 +1,92 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+header{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    padding: 10px;
+    background-color:black;
+}
+body{
+    display: grid;
+    grid-template-areas: 
+    "header"
+    "main"
+    ;
+    grid-template-rows: 100px 500px;
+}
+span{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 60px;
+    flex: 0 0 79%;
+}
+header > span > a{
+    text-decoration: none;
+    font-size: 20px;
+    color: white;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+header > span > a:hover{
+    color: rgb(208, 45, 20);
+}
+i{
+    flex: 0 0 10%;
+    color: rgb(237, 220, 220);
+    display: flex;
+    justify-content: end;
+}
+
+.span2{
+    flex: 0 0 10%;
+    display: flex;
+    justify-content: flex-end;
+    font-size: 20px;
+}
+header > img{
+    width: 150px;
+}
+header > .span2 >i:hover{
+    color: rgb(229, 8, 8);
+}
+
+main{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 80px;
+    padding: 50px;
+}
+main > div > h1{
+    font-size: 30px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+main > div > p{
+    font-size: 20px;
+    color: grey;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+main > div > a{
+    font-size: 20px;
+    text-decoration: none;
+    color: black;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+main > div{
+    flex: 0 0 33%;
+}
+main > div > img{
+    width: 665px;
+    height: 400px;
+}
+main > div > a:hover{
+    color: rgb(233, 33, 3);
+}
+main >.audi{
+    margin-top: -25px;
+}
